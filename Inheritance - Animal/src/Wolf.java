@@ -12,5 +12,12 @@ public class Wolf extends Canine
 		{
 		System.out.println("A wolf eats man...");
 		}
+	
+	@Override
+	public void displayAge()
+		{
+		age = 3;
+		System.out.println(name + " is " + age + " years old.");
+		}
 	}
 	

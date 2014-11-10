@@ -12,4 +12,10 @@ public class Canine extends Animal
 		{
 		System.out.println("A canine reacts to man...");
 		}
+	
+	public void displayAge()
+		{
+		age = 10;
+		System.out.println(name + " is " + age + " years old.");
+		}
 	}

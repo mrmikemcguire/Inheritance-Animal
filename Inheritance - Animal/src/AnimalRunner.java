@@ -13,11 +13,14 @@ public class AnimalRunner
 		
 		canine.makesNoise();
 		canine.reactsToMan();
+		canine.displayAge();
 		
 		wolf.makesNoise();
 		wolf.reactsToMan();
+		wolf.displayAge();
 		
 		dog.makesNoise();
 		dog.reactsToMan();
+		dog.displayAge();
 		}
 	}

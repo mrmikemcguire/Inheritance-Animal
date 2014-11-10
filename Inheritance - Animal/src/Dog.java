@@ -1,15 +1,23 @@
 
 public class Dog extends Canine
 	{
+
 	@Override
 	public void makesNoise()
 		{
-		System.out.println("A dog barks...");
+		name = "Fido";
+		System.out.println(name + " barks...");
 		}
 	
 	@Override
 	public void reactsToMan()
 		{
-		System.out.println("A dog wants to play with man...");
+		System.out.println(name + " wants to play with man...");
+		}
+	
+	public void displayAge()
+		{
+		age = 7;
+		System.out.println(name + " is " + age + " years old.");
 		}
 	}
