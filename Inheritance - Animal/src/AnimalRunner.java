@@ -22,5 +22,14 @@ public class AnimalRunner
 		dog.makesNoise();
 		dog.reactsToMan();
 		dog.displayAge();
+		
+//		Animal [] animals = new Animal [2];
+//		animals[0] = new Wolf();
+//		animals[1] = new Dog();
+//		
+//		for (int i = 0; i < animals.length; i++)
+//			{
+//			animals[i].makesNoise();
+//			}
 		}
 	}
