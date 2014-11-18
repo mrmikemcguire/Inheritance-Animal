@@ -9,5 +9,11 @@ public class Bat extends Mammal implements Flyable
 		{
 		System.out.println("The " + name +  "emits an ultrasonic pulse.");
 		}
+	
+	@Override
+	public void flies()
+		{
+		System.out.println("The " + name + " can also fly!");
+		}
 	}
 	

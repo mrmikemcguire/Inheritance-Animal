@@ -9,4 +9,10 @@ public class Robin extends Bird implements Flyable
 		{
 		System.out.println("The " + name + " says, \"Chirp.\"");
 		}
+	
+	@Override
+	public void flies()
+		{
+		System.out.println("The " + name + " can also fly!");
+		}
 	}
