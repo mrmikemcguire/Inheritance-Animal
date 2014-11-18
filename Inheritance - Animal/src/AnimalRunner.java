@@ -13,6 +13,7 @@ public class AnimalRunner
 			{	
 			animals[i].bearsYoung();
 			animals[i].makesNoise();
+			animals[i].eats();
 			System.out.println();
 			}
 		}
