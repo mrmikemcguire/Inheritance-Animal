@@ -1,6 +1,8 @@
 
 public class Bat extends Mammal
 	{
+	food = "insects";
+	
 	@Override
 	public void makesNoise()
 		{

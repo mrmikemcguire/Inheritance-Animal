@@ -1,6 +1,8 @@
 
 public class Penquin extends Bird
 	{
+	food = "fish";
+	
 	@Override
 	public void makesNoise()
 		{
