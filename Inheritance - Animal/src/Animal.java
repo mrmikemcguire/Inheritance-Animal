@@ -1,16 +1,10 @@
 
-public class Animal
+public abstract class Animal
 	{
-	protected String name;
-	protected int age;
+	protected String food;
 	
-	public void makesNoise()
-		{
-		System.out.println("An animal makes noise...");
-		}
+	public abstract void makesNoise();
+
+	public abstract void bearsYoung();
 	
-	public void reactsToMan()
-		{
-		System.out.println("An animal reacts to man...");
-		}
 	}
