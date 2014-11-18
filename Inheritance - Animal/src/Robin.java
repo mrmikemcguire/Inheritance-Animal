@@ -1,9 +1,12 @@
 
 public class Robin extends Bird implements Flyable
 	{
-	name = "robin";
-	food = "worms";
-	
+	public Robin()
+		{
+		name = "robin";
+		food = "worms";
+		}
+
 	@Override
 	public void makesNoise()
 		{
