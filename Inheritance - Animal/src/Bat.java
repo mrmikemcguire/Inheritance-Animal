@@ -1,5 +1,5 @@
 
-public class Bat extends Mammal
+public class Bat extends Mammal implements Flyable
 	{
 	name = "bat";
 	food = "insects";

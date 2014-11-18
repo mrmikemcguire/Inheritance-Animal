@@ -1,5 +1,5 @@
 
-public class Robin extends Bird
+public class Robin extends Bird implements Flyable
 	{
 	name = "robin";
 	food = "worms";
