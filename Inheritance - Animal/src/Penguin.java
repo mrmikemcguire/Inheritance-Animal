@@ -1,9 +1,9 @@
 
-public class Penquin extends Bird
+public class Penguin extends Bird
 	{
-	public Penquin()
+	public Penguin()
 		{
-		name = "penquin";
+		name = "penguin";
 		food = "fish";
 		}
 
