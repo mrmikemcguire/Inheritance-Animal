@@ -14,10 +14,7 @@ public class AnimalRunner
 			animal[i].bearsYoung();
 			animal[i].makesNoise();
 			animal[i].eats();
-			if(animal[i] instanceof Flyable)
-				{
-				animal[i].flies();
-				}
+			animal[i].myFlightBehavior.flies();
 			System.out.println();
 			}
 		}

@@ -5,16 +5,12 @@ public class Penguin extends Bird
 		{
 		name = "penguin";
 		food = "fish";
+		myFlightBehavior = (FlightBehavior) new CannotFly();
 		}
 
 	@Override
 	public void makesNoise()
 		{
 		System.out.println("The " + name + " says, \"Brrr....\"");
-		}
-
-	@Override
-	public void flies()
-		{
 		}
 	}

@@ -5,16 +5,12 @@ public class Cow extends Mammal
 		{
 		name = "cow";
 		food = "grass";
+		myFlightBehavior = (FlightBehavior) new CannotFly();
 		}
 
 	@Override
 	public void makesNoise()
 		{
 		System.out.println("The " + name + " says, \"Moo.\"");
-		}
-
-	@Override
-	public void flies()
-		{
 		}
 	}

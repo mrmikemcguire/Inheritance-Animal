@@ -1,12 +1,12 @@
 
 public abstract class Animal
 	{
-	protected String food;
 	protected String name;
-		
+	protected String food;
+	protected FlightBehavior myFlightBehavior;
+
 	public abstract void makesNoise();
 	public abstract void bearsYoung();
-	public abstract void flies();
 
 	public void eats()
 		{
