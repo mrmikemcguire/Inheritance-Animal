@@ -15,6 +15,6 @@ public abstract class Animal
 	
 	public void makesNoise()
 		{
-		System.out.println("The " + name +  " says " + sound);
+		System.out.println("The " + name +  " says " + sound + ".");
 		}
 	}

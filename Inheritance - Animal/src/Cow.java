@@ -8,10 +8,4 @@ public class Cow extends Mammal
 		sound = "moo";
 		myFlightBehavior = (FlightBehavior) new CannotFly();
 		}
-
-	@Override
-	public void makesNoise()
-		{
-		System.out.println("The " + name + " says, \"Moo.\"");
-		}
 	}
