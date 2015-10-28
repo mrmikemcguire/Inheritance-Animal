@@ -5,6 +5,7 @@ public class Cow extends Mammal
 		{
 		name = "cow";
 		food = "grass";
+		sound = "moo";
 		myFlightBehavior = (FlightBehavior) new CannotFly();
 		}
 

@@ -5,6 +5,7 @@ public class Robin extends Bird
 		{
 		name = "robin";
 		food = "worms";
+		sound = "chirp";
 		myFlightBehavior = (FlightBehavior) new CanFly();
 		}
 
