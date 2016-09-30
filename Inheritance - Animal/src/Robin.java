@@ -8,11 +8,4 @@ public class Robin extends Bird
 		sound = "chirp";
 		myFlightBehavior = (FlightBehavior) new CanFly();
 		}
-
-	@Override
-	public void makesNoise()
-		{
-		System.out.println("The " + name + " says, \"Chirp.\"");
-		}
-
 	}
