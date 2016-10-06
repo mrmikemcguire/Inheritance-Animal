@@ -1,11 +1,11 @@
 
 public class Robin extends Bird
 	{
-	protected Robin()
+	protected Robin(String n, String f, String s)
 		{
-		name = "robin";
-		food = "worms";
-		sound = "chirp";
+		name = n;
+		food = f;
+		sound = s;
 		myFlightBehavior = (FlightBehavior) new CanFly();
 		}
 	}

@@ -11,10 +11,10 @@ public class AnimalRunner
 //		animal[3] = new Robin();
 		
 		ArrayList <Animal> zoo = new ArrayList <Animal>();
-		zoo.add(new Bat());
-		zoo.add(new Cow());
-		zoo.add(new Penguin());
-		zoo.add(new Robin());
+		zoo.add(new Bat("Fang", "insects", "ultrasonic pulse"));
+		zoo.add(new Cow("Flossy", "grass", "moo"));
+		zoo.add(new Penguin("Cody", "fish", "brr"));
+		zoo.add(new Robin("Christopher", "worms", "chirp"));
 
 		for (Animal a : zoo)
 			{	

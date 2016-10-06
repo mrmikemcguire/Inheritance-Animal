@@ -10,11 +10,11 @@ abstract class Animal
 
 	protected void eats()
 		{
-		System.out.println("The " + name + " is looking forward to eating some " + food + ".");
+		System.out.println(name + " is looking forward to eating some " + food + ".");
 		}
 	
 	protected void makesNoise()
 		{
-		System.out.println("The " + name +  " says " + sound + ".");
+		System.out.println(name +  " says " + sound + ".");
 		}
 	}

@@ -1,17 +1,18 @@
 
 public class Bat extends Mammal
 	{
-	protected Bat()
+	protected Bat(String n, String f, String s)
 		{
-		name = "bat";
-		food = "insects";
+		name = n;
+		food = f;
+		sound = s;
 		myFlightBehavior= (FlightBehavior) new CanFly();
 		}
 
 	@Override
 	protected void makesNoise()
 		{
-		System.out.println("The " + name +  " emits an ultrasonic pulse.");
+		System.out.println(name +  " emits an ultrasonic pulse.");
 		}
 	}
 	
