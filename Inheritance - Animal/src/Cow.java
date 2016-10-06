@@ -1,7 +1,7 @@
 
 public class Cow extends Mammal
 	{
-	public Cow()
+	protected Cow()
 		{
 		name = "cow";
 		food = "grass";

@@ -1,7 +1,7 @@
 
 public class Bat extends Mammal
 	{
-	public Bat()
+	protected Bat()
 		{
 		name = "bat";
 		food = "insects";
@@ -9,7 +9,7 @@ public class Bat extends Mammal
 		}
 
 	@Override
-	public void makesNoise()
+	protected void makesNoise()
 		{
 		System.out.println("The " + name +  " emits an ultrasonic pulse.");
 		}

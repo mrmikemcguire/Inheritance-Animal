@@ -1,8 +1,8 @@
 
-public abstract class Bird extends Animal
+abstract class Bird extends Animal
 	{
 	@Override
-	public void bearsYoung()
+	protected void bearsYoung()
 		{
 		System.out.println("Ooo, a cute little egg!");
 		}

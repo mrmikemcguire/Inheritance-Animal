@@ -1,8 +1,8 @@
 
-public abstract class Mammal extends Animal
+abstract class Mammal extends Animal
 	{
 	@Override
-	public void bearsYoung()
+	protected void bearsYoung()
 		{
 		System.out.println("Ooo, a cute little mammal baby!");
 		}

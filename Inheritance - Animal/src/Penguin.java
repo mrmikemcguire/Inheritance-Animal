@@ -1,7 +1,7 @@
 
 public class Penguin extends Bird
 	{
-	public Penguin()
+	protected Penguin()
 		{
 		name = "penguin";
 		food = "fish";
